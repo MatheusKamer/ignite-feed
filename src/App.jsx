@@ -1,4 +1,5 @@
 import { Header } from "./components/Header"
+import { Sidebar } from "./components/Sidebar"
 
 function App() {
   return (
@@ -6,9 +7,8 @@ function App() {
       <Header />
 
       <div className="flex max-w-[1120px] mx-auto my-8 px-0 py-4 grid-cols-2 gap-8 items-start">
-        <aside className="w-[256px]">
-          sidebar
-        </aside>
+        <Sidebar />
+
         <main>
           main
         </main>
