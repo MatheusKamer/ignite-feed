@@ -1,3 +1,4 @@
+import { Post } from "./components/Post"
 import { Header } from "./components/Header"
 import { Sidebar } from "./components/Sidebar"
 
@@ -10,7 +11,7 @@ function App() {
         <Sidebar />
 
         <main>
-          main
+          <Post />
         </main>
       </div>
     </>
